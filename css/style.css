@@ -1,0 +1,112 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+body { 
+	font-family:'Poppins';
+	background: rgba(94, 94, 94, 0.05);}
+	.blok1{ 
+		font-family:'Poppins';
+		max-height: 600px;
+		background: url('../img/01.png') 0 0 no-repeat;
+		background-size: cover;
+	}
+	.date{
+		padding: 330px 0px 15px 100px;
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.header{
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 40px;
+		padding-bottom: 15px;
+		padding-left: 100px;
+	}
+	.second{
+		font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 20px;
+		padding-left: 100px;
+		padding-bottom: 100px;
+	}
+	.blok2{
+		padding: 20px 0px;
+		background: url('../img/repeat.jpg') repeat;
+		color: white;
+	}
+	.list{
+		max-width: 300px;
+		margin:0 auto 30px;}
+	.list li{
+		margin-bottom: 15px;
+		padding: 3px 5px 0px 30px;
+		min-height: 25px;}
+	.part1 li{
+		background: url('../img/blue_dot.svg') 0 5px no-repeat;
+	}
+	.part2 li{
+		background: url('../img/arrow_right.svg') 0 2px no-repeat;
+	}
+	.part3 li{
+		background: url('../img/blue_tick.svg') 0 2px no-repeat;
+	}
+	.part4 li{
+		background: url('../img/green_tick.svg') 0 2px no-repeat;
+	}
+	.part5 li{
+		background: url('../img/red_cross.svg') 0 2px no-repeat;
+	}
+	.part6 li{
+		background: url('../img/star.svg') 0 2px no-repeat;
+	}
+	.blok3 { 
+		min-height: 560px;
+		background: url('../img/speaker.jpg') 80% 50% no-repeat,linear-gradient(115deg, rgba(244,247,255,0) 60%, rgba(48,86,211,0.08) 60%, rgba(244,247,255,0) 100%), linear-gradient(115deg, rgba(244,247,255,0) 67%, rgba(48,86,211,0.08) 67%, rgba(244,247,255,0) 100%) #F4F7FF;
+		
+	}
+	.price {
+		padding-left: 173px;
+		padding-top: 145px;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 24px;
+		color: #3056D3;
+	}
+	h3 {
+		padding-top: 10px;
+		padding-left: 173px;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 45px;
+		color: #212B36;
+	}
+	.text{
+		padding-top: 10px;
+		padding-left: 173px;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #637381;
+	}
+	.button{
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;
+		margin-top:  30px;
+		margin-left:  173px;
+		color: #FFFFFF;
+		padding: 10px 30px 10px 30px;
+		border-radius: 10px;
+		background-color: #3056D3;
+	}
